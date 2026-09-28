@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools">
+    <style
+        name="Theme.FocusFlow"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <!-- FocusFlow botanical palette for every Android/Material control -->
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorPrimaryVariant">@color/dark_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorSecondaryVariant">@color/orange</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/ff_surface</item>
+        <item name="colorOnSurface">@color/dark_green</item>
+        <item name="android:colorBackground">@color/cream</item>
+        <item name="colorOnBackground">@color/dark_green</item>
+        <item name="android:colorAccent">@color/dark_green</item>
+        <item name="android:navigationBarColor">@color/cream</item>
+        <item name="android:statusBarColor">@color/cream</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">@color/cream</item>
+        <!-- Prevent stock turquoise/purple from leaking into widgets -->
+        <item name="android:colorControlActivated">@color/dark_green</item>
+        <item name="android:colorControlHighlight">@color/ff_green_soft</item>
+        <item name="android:colorControlNormal">@color/ff_text_secondary</item>
+        <item name="alertDialogTheme">@style/Theme.FocusFlow.Dialog</item>
+    </style>
+    <style
+        name="Theme.FocusFlow.Dialog"
+        parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorSurface">@color/ff_surface</item>
+        <item name="colorOnSurface">@color/dark_green</item>
+        <item name="android:colorAccent">@color/dark_green</item>
+        <item name="android:colorControlActivated">@color/dark_green</item>
+        <item name="android:windowBackground">@color/ff_surface</item>
+    </style>
+    <style
+        name="Theme.FocusFlow.Picker"
+        parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorPrimaryVariant">@color/dark_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/orange</item>
+        <item name="android:colorAccent">@color/dark_green</item>
+        <item name="android:colorControlActivated">@color/dark_green</item>
+        <item name="android:colorControlHighlight">@color/ff_green_soft</item>
+        <item name="android:windowBackground">@color/ff_surface</item>
+    </style>
+</resources>

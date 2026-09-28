@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- FocusFlow main palette -->
+    <color name="ff_background">#F7F1E7</color>
+    <color name="ff_surface">#FFFDF8</color>
+    <!-- Greens -->
+    <color name="ff_green">#486A4B</color>
+    <color name="ff_green_dark">#294532</color>
+    <color name="ff_green_soft">#DDE8D7</color>
+    <!-- Accent -->
+    <color name="ff_orange">#E97535</color>
+    <!-- Blue -->
+    <color name="ff_blue_soft">#DCEAEC</color>
+    <!-- Text -->
+    <color name="ff_text">#26342A</color>
+    <color name="ff_text_secondary">#788078</color>
+    <!-- Lines -->
+    <color name="ff_divider">#E3DDD2</color>
+    <!-- Basic -->
+    <color name="ff_white">#FFFFFF</color>
+    <color name="ff_black">#000000</color>
+    <!-- Compatibility with older layouts -->
+    <color name="cream">#F7F1E7</color>
+    <color name="dark_green">#294532</color>
+    <color name="green">#486A4B</color>
+    <color name="orange">#E97535</color>
+    <color name="muted">#788078</color>
+    <color name="blue_soft">#DCEAEC</color>
+    <color name="sage">#DDE8D7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

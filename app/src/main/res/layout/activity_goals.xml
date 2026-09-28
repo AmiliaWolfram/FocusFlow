@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ff_background"
+    android:padding="22dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GOALS"
+        android:textColor="@color/ff_green"
+        android:textStyle="bold"
+        android:letterSpacing="0.12" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn intention\ninto momentum."
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/ff_text"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set a target, connect tasks and watch your progress grow."
+        android:textColor="@color/ff_text_secondary"
+        android:layout_marginTop="8dp" />
+    <Button
+        android:id="@+id/btnAddGoal"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="+  CREATE A GOAL"
+        android:textStyle="bold"
+        android:textColor="@color/ff_white"
+        android:backgroundTint="@color/ff_green"
+        android:layout_marginTop="24dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerGoals"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="18dp" />
+</LinearLayout>

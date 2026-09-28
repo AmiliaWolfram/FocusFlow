@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insights"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="22dp">
+            <TextView
+                android:id="@+id/focusTotal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="0 min"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_card" />
+            <TextView
+                android:id="@+id/sessions"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_sage" />
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_blue" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Where your time went"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green"
+            android:layout_marginTop="28dp" />
+        <LinearLayout
+            android:id="@+id/breakdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </LinearLayout>
+</ScrollView>

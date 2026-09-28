@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New task"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green" />
+        <!-- TASK TITLE -->
+        <EditText
+            android:id="@+id/taskTitle"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/bg_card"
+            android:hint="What needs to be done?"
+            android:padding="16dp" />
+        <!-- CATEGORY -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Category"
+            android:textColor="@color/dark_green"
+            android:textStyle="bold" />
+        <Spinner
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+        <!-- GOAL -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Goal"
+            android:textColor="@color/dark_green"
+            android:textStyle="bold" />
+        <Spinner
+            android:id="@+id/goal"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+        <!-- DATE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Planned date"
+            android:textColor="@color/dark_green"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Choose date"
+            android:textAllCaps="false" />
+        <!-- TIME -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Time"
+            android:textColor="@color/dark_green"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Choose time"
+            android:textAllCaps="false" />
+        <!-- DURATION -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Estimated focus"
+            android:textColor="@color/dark_green"
+            android:textStyle="bold" />
+        <Spinner
+            android:id="@+id/duration"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+        <!-- SAVE -->
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/orange"
+            android:text="Add task"
+            android:textAllCaps="false"
+            android:textColor="@color/ff_white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

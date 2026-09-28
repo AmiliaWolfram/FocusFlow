@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="28dp"
+    android:background="@color/cream">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FOCUS SESSION"
+        android:textStyle="bold"
+        android:textColor="@color/green" />
+    <TextView
+        android:id="@+id/focusTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Task"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_green" />
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="25:00"
+        android:textSize="62sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_green"
+        android:background="@drawable/bg_sage" />
+    <TextView
+        android:id="@+id/distractions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Distractions: 0"
+        android:textColor="@color/muted" />
+    <Button
+        android:id="@+id/startPause"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="18dp"
+        android:text="Start"
+        android:textAllCaps="false"
+        android:textColor="@color/ff_white"
+        android:backgroundTint="@color/green" />
+    <Button
+        android:id="@+id/distracted"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:text="I got distracted"
+        android:textAllCaps="false"
+        android:textColor="@color/orange" />
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:text="Finish session"
+        android:textAllCaps="false" />
+</LinearLayout>
